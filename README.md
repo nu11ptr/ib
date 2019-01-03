@@ -1,9 +1,9 @@
 GoIB
 ====
 
-[![Build Status](https://drone.io/github.com/gofinance/ib/status.png)](https://drone.io/github.com/gofinance/ib/latest)
+[![Build Status](https://travis-ci.org/nu11ptr/ib.svg?branch=master)](https://travis-ci.org/nu11ptr/ib)
 [![GoDoc](https://godoc.org/github.com/gofinance/ib?status.png)](https://godoc.org/github.com/gofinance/ib)
-[![Coverage Status](https://coveralls.io/repos/gofinance/ib/badge.png?branch=master)](https://coveralls.io/r/gofinance/ib?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/nu11ptr/ib/badge.svg?branch=master)](https://coveralls.io/github/nu11ptr/ib?branch=master)
 
 This is a pure Go interface to
 [Interactive Brokers](https://www.interactivebrokers.com/)
