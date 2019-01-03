@@ -8,11 +8,12 @@ os:
 
 before_script:
   - lsb_release -a
-  - sudo start xvfb
+  - "sh -e /etc/init.d/xvfb start"
   - sudo apt-get install -y telnet
   - go get
   - go build
   - cd testserver
+  - sleep 3
   - ./ibgwstart
   - sleep 15
   - cd ..
